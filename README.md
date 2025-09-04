@@ -14,7 +14,7 @@ A Python application for monitoring temperature data from an Arduino Uno with MA
 
 ## Requirements
 
-- Python 3.7 or higher: https://www.python.org/downloads/windows/
+- Python 3.7 or higher (doesn't work with 3.13): https://www.python.org/downloads/windows/
 - Arduino drivers: https://www.arduino.cc/en/software/ https://sparks.gogo.co.nz/ch340.html
 - Arduino Uno with MAX6675 thermocouple module https://www.analog.com/media/en/technical-documentation/data-sheets/max6675.pdf
 - USB cable to connect Arduino to computer

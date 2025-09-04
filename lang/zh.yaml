@@ -1,0 +1,52 @@
+# Chinese (Simplified) Language File for Temperature Monitor
+
+# Main Interface
+app_title: "温度监控器"
+main_title: "温度监控器"
+start_button: "开始测量"
+stop_button: "停止"
+origin_checkbox: "发送到Origin"
+browse_button: "浏览测量"
+
+# Status Messages
+ready_status: "准备开始测量"
+connected_status: "已连接到 {port}。正在记录到 {filename}"
+recording_status: "正在记录... 当前: {temperature:.2f}°C, 变化: {change:.3f}°C/s"
+stopped_status: "测量已停止"
+stopped_origin_status: "测量已停止。Origin: {message}"
+stopped_origin_error_status: "测量已停止。Origin错误: {message}"
+
+# Error Messages
+arduino_not_found: "错误: 未找到Arduino。请检查连接。"
+start_error: "启动测量错误: {error}"
+measurement_error: "测量过程中错误: {error}"
+origin_error: "Origin错误: {message}"
+folder_error: "打开测量文件夹错误: {error}"
+folder_created: "已创建测量文件夹: {path}"
+folder_opened: "测量文件夹已打开"
+
+# Origin Integration
+origin_enabled: "Origin集成已启用"
+origin_disabled: "Origin集成已禁用"
+origin_connected: "已连接到现有Origin实例"
+origin_created: "已创建新Origin实例"
+origin_connect_error: "连接到Origin失败: {error}"
+origin_worksheet_created: "已创建工作表: {name}"
+origin_worksheet_error: "创建工作表失败: {error}"
+origin_write_success: "数据已写入Origin"
+origin_write_error: "写入Origin失败: {error}"
+origin_no_worksheet: "没有活动工作表"
+origin_disconnected: "已断开Origin连接"
+origin_disconnect_error: "断开Origin连接错误: {error}"
+origin_pywin32_error: "pywin32不可用。请安装: pip install pywin32"
+
+# Plot Labels
+plot_title: "温度 vs 时间"
+plot_xlabel: "时间 (秒)"
+plot_ylabel: "温度 (°C)"
+plot_legend: "温度"
+
+# Origin Column Headers
+origin_time_column: "时间 (毫秒)"
+origin_temperature_column: "温度"
+origin_change_column: "变化"

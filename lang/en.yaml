@@ -1,0 +1,52 @@
+# English Language File for Temperature Monitor
+
+# Main Interface
+app_title: "Temperature Monitor"
+main_title: "Temperature Monitor"
+start_button: "Start Measurement"
+stop_button: "Stop"
+origin_checkbox: "Send to Origin"
+browse_button: "Browse Measurements"
+
+# Status Messages
+ready_status: "Ready to start measurement"
+connected_status: "Connected to {port}. Recording to {filename}"
+recording_status: "Recording... Current: {temperature:.2f}°C, Change: {change:.3f}°C/s"
+stopped_status: "Measurement stopped"
+stopped_origin_status: "Measurement stopped. Origin: {message}"
+stopped_origin_error_status: "Measurement stopped. Origin Error: {message}"
+
+# Error Messages
+arduino_not_found: "Error: Arduino not found. Please check connection."
+start_error: "Error starting measurement: {error}"
+measurement_error: "Error during measurement: {error}"
+origin_error: "Origin Error: {message}"
+folder_error: "Error opening measurements folder: {error}"
+folder_created: "Created measurements folder: {path}"
+folder_opened: "Opened measurements folder"
+
+# Origin Integration
+origin_enabled: "Origin integration enabled"
+origin_disabled: "Origin integration disabled"
+origin_connected: "Connected to existing Origin instance"
+origin_created: "Created new Origin instance"
+origin_connect_error: "Failed to connect to Origin: {error}"
+origin_worksheet_created: "Created worksheet: {name}"
+origin_worksheet_error: "Failed to create worksheet: {error}"
+origin_write_success: "Data written to Origin"
+origin_write_error: "Failed to write to Origin: {error}"
+origin_no_worksheet: "No active worksheet"
+origin_disconnected: "Disconnected from Origin"
+origin_disconnect_error: "Error disconnecting from Origin: {error}"
+origin_pywin32_error: "pywin32 not available. Please install: pip install pywin32"
+
+# Plot Labels
+plot_title: "Temperature vs Time"
+plot_xlabel: "Time (seconds)"
+plot_ylabel: "Temperature (°C)"
+plot_legend: "Temperature"
+
+# Origin Column Headers
+origin_time_column: "Time (ms)"
+origin_temperature_column: "Temperature"
+origin_change_column: "Change"

@@ -1,0 +1,52 @@
+# Russian Language File for Temperature Monitor
+
+# Main Interface
+app_title: "Мониторинг температуры"
+main_title: "Мониторинг температуры"
+start_button: "Начать измерение"
+stop_button: "Остановить"
+origin_checkbox: "Передавать в Origin"
+browse_button: "Просмотр измерений"
+
+# Status Messages
+ready_status: "Готов к началу измерения"
+connected_status: "Подключен к {port}. Запись в {filename}"
+recording_status: "Запись... Текущая: {temperature:.2f}°C, Изменение: {change:.3f}°C/s"
+stopped_status: "Измерение остановлено"
+stopped_origin_status: "Измерение остановлено. Origin: {message}"
+stopped_origin_error_status: "Измерение остановлено. Ошибка Origin: {message}"
+
+# Error Messages
+arduino_not_found: "Ошибка: Arduino не найден. Проверьте подключение."
+start_error: "Ошибка запуска измерения: {error}"
+measurement_error: "Ошибка во время измерения: {error}"
+origin_error: "Ошибка Origin: {message}"
+folder_error: "Ошибка открытия папки измерений: {error}"
+folder_created: "Создана папка измерений: {path}"
+folder_opened: "Папка измерений открыта"
+
+# Origin Integration
+origin_enabled: "Интеграция с Origin включена"
+origin_disabled: "Интеграция с Origin отключена"
+origin_connected: "Подключен к существующему экземпляру Origin"
+origin_created: "Создан новый экземпляр Origin"
+origin_connect_error: "Ошибка подключения к Origin: {error}"
+origin_worksheet_created: "Создан лист: {name}"
+origin_worksheet_error: "Ошибка создания листа: {error}"
+origin_write_success: "Данные записаны в Origin"
+origin_write_error: "Ошибка записи в Origin: {error}"
+origin_no_worksheet: "Нет активного листа"
+origin_disconnected: "Отключен от Origin"
+origin_disconnect_error: "Ошибка отключения от Origin: {error}"
+origin_pywin32_error: "pywin32 недоступен. Установите: pip install pywin32"
+
+# Plot Labels
+plot_title: "Температура vs Время"
+plot_xlabel: "Время (секунды)"
+plot_ylabel: "Температура (°C)"
+plot_legend: "Температура"
+
+# Origin Column Headers
+origin_time_column: "Время (мс)"
+origin_temperature_column: "Температура"
+origin_change_column: "Изменение"

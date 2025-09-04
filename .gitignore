@@ -1,0 +1,4 @@
+TemperatureMonitor.zip
+dist/
+build/
+__pycache__/

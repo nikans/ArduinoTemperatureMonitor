@@ -1,0 +1,52 @@
+# German Language File for Temperature Monitor
+
+# Main Interface
+app_title: "Temperatur-Monitor"
+main_title: "Temperatur-Monitor"
+start_button: "Messung Starten"
+stop_button: "Stoppen"
+origin_checkbox: "An Origin Senden"
+browse_button: "Messungen Durchsuchen"
+
+# Status Messages
+ready_status: "Bereit für Messung"
+connected_status: "Verbunden mit {port}. Aufzeichnung in {filename}"
+recording_status: "Aufzeichnung... Aktuell: {temperature:.2f}°C, Änderung: {change:.3f}°C/s"
+stopped_status: "Messung gestoppt"
+stopped_origin_status: "Messung gestoppt. Origin: {message}"
+stopped_origin_error_status: "Messung gestoppt. Origin Fehler: {message}"
+
+# Error Messages
+arduino_not_found: "Fehler: Arduino nicht gefunden. Verbindung prüfen."
+start_error: "Fehler beim Starten der Messung: {error}"
+measurement_error: "Fehler während der Messung: {error}"
+origin_error: "Origin Fehler: {message}"
+folder_error: "Fehler beim Öffnen des Messordners: {error}"
+folder_created: "Messordner erstellt: {path}"
+folder_opened: "Messordner geöffnet"
+
+# Origin Integration
+origin_enabled: "Origin-Integration aktiviert"
+origin_disabled: "Origin-Integration deaktiviert"
+origin_connected: "Mit bestehender Origin-Instanz verbunden"
+origin_created: "Neue Origin-Instanz erstellt"
+origin_connect_error: "Verbindung zu Origin fehlgeschlagen: {error}"
+origin_worksheet_created: "Arbeitsblatt erstellt: {name}"
+origin_worksheet_error: "Arbeitsblatt-Erstellung fehlgeschlagen: {error}"
+origin_write_success: "Daten in Origin geschrieben"
+origin_write_error: "Schreiben in Origin fehlgeschlagen: {error}"
+origin_no_worksheet: "Kein aktives Arbeitsblatt"
+origin_disconnected: "Von Origin getrennt"
+origin_disconnect_error: "Fehler beim Trennen von Origin: {error}"
+origin_pywin32_error: "pywin32 nicht verfügbar. Installieren: pip install pywin32"
+
+# Plot Labels
+plot_title: "Temperatur vs Zeit"
+plot_xlabel: "Zeit (Sekunden)"
+plot_ylabel: "Temperatur (°C)"
+plot_legend: "Temperatur"
+
+# Origin Column Headers
+origin_time_column: "Zeit (ms)"
+origin_temperature_column: "Temperatur"
+origin_change_column: "Änderung"

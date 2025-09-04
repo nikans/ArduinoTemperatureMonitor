@@ -1,6 +1,8 @@
 # Arduino Temperature Monitor
 
-A Python application for monitoring temperature data from an Arduino Uno with MAX6675 thermocouple module.
+A Windows Python application for monitoring temperature data from an Arduino Uno with MAX6675 thermocouple module. 100% vibe-coded.
+
+![screen](https://github.com/user-attachments/assets/dfcd1aff-c1a5-4979-8554-2ba155cf2051)
 
 ## Features
 
